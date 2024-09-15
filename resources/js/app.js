@@ -3,6 +3,17 @@ import "../css/app.css";
 import { createApp, h } from "vue";
 import { createInertiaApp } from "@inertiajs/vue3";
 
+/** import font awesome core */
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+/** import icons */
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
+/** import font awesome icon components */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+library.add(faUser);
+
 createInertiaApp({
     resolve: (name) => {
         const pages = import.meta.glob("./Pages/**/*.vue", { eager: true });
@@ -10,6 +21,7 @@ createInertiaApp({
     },
     setup({ el, App, props, plugin }) {
         createApp({ render: () => h(App, props) })
+            .component("font-awesome-icon", FontAwesomeIcon)
             .use(plugin)
             .mount(el);
     },
