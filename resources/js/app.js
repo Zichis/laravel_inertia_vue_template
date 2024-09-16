@@ -2,6 +2,7 @@ import './bootstrap';
 import "../css/app.css";
 import { createApp, h } from "vue";
 import { createInertiaApp } from "@inertiajs/vue3";
+import { ZiggyVue } from "../../vendor/tightenco/ziggy";
 
 /** import font awesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -23,6 +24,7 @@ createInertiaApp({
         createApp({ render: () => h(App, props) })
             .component("font-awesome-icon", FontAwesomeIcon)
             .use(plugin)
+            .use(ZiggyVue)
             .mount(el);
     },
 });
