@@ -10,12 +10,12 @@ import "sweetalert2/dist/sweetalert2.min.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 /** import icons */
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
 
 /** import font awesome icon components */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faUser);
+library.add(faUser, faBars);
 
 createInertiaApp({
     resolve: (name) => {
