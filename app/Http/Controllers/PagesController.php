@@ -10,4 +10,14 @@ class PagesController extends Controller
     {
         return inertia('Home');
     }
+
+    public function about()
+    {
+        return inertia('About');
+    }
+
+    public function contact()
+    {
+        return inertia('Contact');
+    }
 }
