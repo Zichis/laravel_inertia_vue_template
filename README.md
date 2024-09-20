@@ -4,6 +4,8 @@ Laravel Inertia Vue template
 
 ## Description
 <img src="laravel_inertia_vue_template.png">
+![home page]('laravel_inertia_vue_template.png')
+
 I have customised a Laravel project to suit my needs whenever I want to build with Inertia and Vue. I have installed libraries like Tailwindcss, Fontawesome, SweetAlert because I often have to install them on every project.
 
 I have also done the authentication, authorization and user roles and permissions.
