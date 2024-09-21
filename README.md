@@ -1,7 +1,7 @@
 # Laravel Inertia Vue Template
 
 ## Description
-![home page screenshot]('https://res-console.cloudinary.com/dpsib4tp3/thumbnails/v1/image/upload/v1726955046/bGFyYXZlbF9pbmVydGlhX3Z1ZV90ZW1wbGF0ZV9oNndlZTA=/drilldown')
+![]('https://res-console.cloudinary.com/dpsib4tp3/thumbnails/v1/image/upload/v1726955046/bGFyYXZlbF9pbmVydGlhX3Z1ZV90ZW1wbGF0ZV9oNndlZTA=/drilldown')
 
 I have customised a Laravel project to suit my needs whenever I want to build with Inertia and Vue. I have installed libraries like Tailwindcss, Fontawesome, SweetAlert because I often have to install them on every project.
 
