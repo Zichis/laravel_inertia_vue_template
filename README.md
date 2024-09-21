@@ -1,6 +1,4 @@
-# Project Title
-
-Laravel Inertia Vue template
+# Laravel Inertia Vue Template
 
 ## Description
 ![home page screenshot]('/laravel_inertia_vue_template.png')
@@ -9,20 +7,48 @@ I have customised a Laravel project to suit my needs whenever I want to build wi
 
 I have also done the authentication, authorization and user roles and permissions.
 
-### Installing
+### Installation
 
-* Clone the project
-```
+* Clone the repo
+```sh
 git clone https://github.com/Zichis/laravel_inertia_vue_template.git my_project
+
+cd my_project
 ```
-* Navigate to the root of the project and run the command to start the back end
-```
-php -S localhost:8000 -t public
+* Install PHP dependencies
+```sh
+composer install
 ```
 
-* In a separate terminal run the command to start the front end
+* Install Javascript dependencies
+```sh
+npm i
 ```
+
+* Build assets
+```sh
 npm run dev
+```
+
+* Setup configuration
+```sh
+cp .env.example .env
+```
+
+* Generate application key
+```sh
+php artisan key:generate
+```
+
+* Run migrations and seeders
+```sh
+php artisan migrate
+php artisan db:seed
+```
+
+* Run dev server
+```sh
+php artisan serve
 ```
 
 ## Authors
